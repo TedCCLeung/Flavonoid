@@ -40,7 +40,10 @@
 #' }
 "HY5_mutant_comparisons"
 
-#' Grange object from Arabidopsis_thaliana.TAIR10.47.gtf
+
+#' Summer genes
 #'
-#' @source \url{https://plants.ensembl.org/Arabidopsis_thaliana/Info/Index}
-"TAIR10_Grange"
+"summer_genes"
+
+#' HY5 motif genes
+"HY5_motif_genes"

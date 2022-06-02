@@ -20,11 +20,11 @@ map_PPgenes <- function(
 
   df_res <- res %>% as.data.frame()
   HY5_motif_genes <- unique(df_res$seqnames) %>% substr(1, 9)
-  usethis::use_data(HY5_motif_genes)
+  #usethis::use_data(HY5_motif_genes)
 
   ## Plotting -----------------------------------
 
-  autoplot <- ggbio::autoplot(res, layout = "karyogram", ggplot2::aes(fill = motif, color = motif)) +
+  autoplot <- ggbio::autoplot(res, layout = "karyogram", ggplot2::aes(fill = motifs, color = motifs)) +
     ggplot2::theme(
       strip.background = ggplot2::element_rect(fill = NA, colour = NA),
       panel.background = ggplot2::element_rect(fill = NA, colour = NA)

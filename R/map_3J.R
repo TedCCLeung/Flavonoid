@@ -24,7 +24,7 @@ map_3J <- function(
     threshold = 8, threshold.type = "logodds.abs"
   )
 
-  pdf("/Users/TedCCLeung/Documents/Projects/Photoperiod/2_analysis/2_pipeline/ff_motifs.pdf")
-  universalmotif::view_motifs(test_motifs %>% universalmotif::to_list())
-  dev.off()
+  #pdf("/Users/TedCCLeung/Documents/Projects/Photoperiod/2_analysis/2_pipeline/ff_motifs.pdf")
+  #universalmotif::view_motifs(test_motifs %>% universalmotif::to_list())
+  #dev.off()
 }

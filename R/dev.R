@@ -33,11 +33,6 @@
 #TAIR10_Grange <- rtracklayer::import("R/Arabidopsis_thaliana.TAIR10.47.gtf", format = "gtf")
 #usethis::use_data(TAIR10_Grange, compress = "xz")
 
-## HY5 binding site -----------------------------------
-# HY5 <- universalmotif::read_cisbp("/Users/TedCCLeung/Documents/Projects/Photoperiod/2_analysis/0_data/A_pipelineData/TFbinding/CIS-BP_20201005/pwms_all_motifs/M08407_2.00.txt")
-# HY5["family"] <- "bZIP"
-# HY5["name"] <- "HY5"
-# usethis::use_data(HY5)
 
 ## HY5 Gene lists -----------------------------------
 # high_confidence_HY5_genes <- read.table("hy5_peak_genes.txt")[, 1]
