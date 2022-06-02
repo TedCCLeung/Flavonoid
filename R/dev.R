@@ -27,8 +27,8 @@
 # usethis::use_package("GenomicFeatures", type = "Suggests")
 
 ## Data -----------------------------------
- # phenylpropanoid_gene_table <- utils::read.table("/Users/TedCCLeung/Documents/Projects/Photoperiod/1_exploratory/pheno.txt", sep = "\t", header = TRUE)
- # usethis::use_data(phenylpropanoid_gene_table, overwrite = TRUE)
+# phenylpropanoid_gene_table <- utils::read.table("/Users/TedCCLeung/Documents/Projects/Photoperiod/1_exploratory/pheno.txt", sep = "\t", header = TRUE)
+# usethis::use_data(phenylpropanoid_gene_table, overwrite = TRUE)
 
 #TAIR10_Grange <- rtracklayer::import("R/Arabidopsis_thaliana.TAIR10.47.gtf", format = "gtf")
 #usethis::use_data(TAIR10_Grange, compress = "xz")
